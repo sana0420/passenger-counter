@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbBiYBnRsWoFTembmpLNCq2wOnOcYYuOpchw&usqp=CAU");
+    background-size: cover;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #D8BD8A;
+}
+.bod{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border:none;
+    border-left: 5px solid;
+    border-top: 5px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #4F3130;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #D8BD8A;
+}
+
+#save-btn {
+    background: #AA5042;
+}
+
